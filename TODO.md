@@ -1,0 +1,3 @@
+- The droplets should to be accessible directly
+  - The ssh user should not be root
+  - Use a VPC for the droplets?
