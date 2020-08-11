@@ -1,3 +1,8 @@
-- The droplets should to be accessible directly
-  - The ssh user should not be root
-  - Use a VPC for the droplets?
+bootstrap:
+  - create bucket for tfstate
+  - store tfstate in bucket
+
+- context
+- SSL cert
+- pipeline
+- tests
