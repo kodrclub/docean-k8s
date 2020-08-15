@@ -1,5 +1,5 @@
-resource "digitalocean_kubernetes_cluster" "do2-k8s" {
-  name    = "do2-k8s"
+resource "digitalocean_kubernetes_cluster" "do-cluster" {
+  name    = var.cluster_name
   region  = var.region
 
   # Grab the latest version slug from `doctl kubernetes options versions`
